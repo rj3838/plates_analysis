@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97f2ba1e-d228-42ff-912e-b189fbe7d947" name="Changes" comment="initial plates analysis in python">
+    <list default="true" id="97f2ba1e-d228-42ff-912e-b189fbe7d947" name="Changes" comment="EOD">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plates_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/plates_analysis.ipynb" afterDir="false" />
     </list>
@@ -20,15 +22,34 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="notebook:///Users/royj/PycharmProjects/pythonProject/plates_analysis.ipynb" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" root2="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2aIpMe14pQgNpXjrEgahi3kp0Yx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,19 +60,20 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "240103-mac",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
       </set>
     </attachedChunks>
   </component>
@@ -63,7 +85,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704015901931</updated>
-      <workItem from="1704015904035" duration="12976000" />
+      <workItem from="1704015904035" duration="13174000" />
+      <workItem from="1704108703619" duration="4925000" />
+      <workItem from="1704113797029" duration="1922000" />
+      <workItem from="1704189437941" duration="1654000" />
+      <workItem from="1706881764626" duration="3527000" />
+      <workItem from="1706885310599" duration="2871000" />
     </task>
     <task id="LOCAL-00001" summary="initial plates analysis in python">
       <option name="closed" value="true" />
@@ -89,7 +116,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704040535642</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="EOD">
+      <option name="closed" value="true" />
+      <created>1704043761397</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704043761397</updated>
+    </task>
+    <task id="LOCAL-00005" summary="EOD">
+      <option name="closed" value="true" />
+      <created>1704142745796</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704142745796</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +178,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial plates analysis in python" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial plates analysis in python" />
+    <MESSAGE value="EOD" />
+    <option name="LAST_COMMIT_MESSAGE" value="EOD" />
   </component>
 </project>
